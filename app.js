@@ -21,7 +21,7 @@ mongoose.connect(dbLink, { useNewUrlParser: true }, err => {
 let port = 6061;
 app.listen(6061, err => {
     if (err) {
-        console.log("error app listen: ", err);gi
+        console.log("error app listen: ", err);
     } else {
         console.log(`App listen at ${port}`);
     }

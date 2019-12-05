@@ -11,3 +11,5 @@ Router.get("/", (req, res) => {
     console.log("get / ");
     res.render("homePage");
 })
+
+module.exports = Router;
