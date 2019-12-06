@@ -1,0 +1,24 @@
+body {
+    background: url(https://c.wallhere.com/photos/df/ea/pencils_multicolored_sharp_colorful-774522.jpg!d);
+    background-size: cover;
+}
+
+div {
+    text-align: center;
+    padding-top: 150px;
+}
+
+form{
+    text-align: center;
+    margin: 10px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    background: url(https://cdn0.iconfinder.com/data/icons/essentials-solid/100/Refresh-512.png);
+    background-size: 80%;
+    background-repeat:no-repeat;
+    background-position: center;
+    border: 0;
+}

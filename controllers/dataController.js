@@ -15,7 +15,7 @@ async function readAllData() {
     let allData = await DataModel.find({});
     let data = [];
     allData.forEach(element => {
-        if (element.availableSizes.length > 0) data.push(element);
+         data.push(element);
     });
     return allData;
 }

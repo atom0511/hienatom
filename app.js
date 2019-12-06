@@ -28,4 +28,6 @@ app.listen(6061, err => {
 });
 
 const homeRouter = require("./routers/homeRouter");
+const gameRouter = require("./routers/gameRouter");
 app.use("/", homeRouter);
+app.use("/", gameRouter);

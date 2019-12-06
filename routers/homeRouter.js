@@ -8,8 +8,8 @@ const {
 } = require("../controllers/dataController");
 
 Router.get("/", (req, res) => {
-    console.log("get / ");
-    res.render("homePage");
+    console.log("get /");
+    res.render("homePage", {css: "/home.css"});
 })
 
 module.exports = Router;
