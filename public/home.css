@@ -1,3 +1,219 @@
-p{
-    color: red;
+.header {
+  position: relative;
+  width: 1350px;
+  height: 100px;
+  background-color:#4caf50;
+
+  float: left;
+}
+.header .button {
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background-color: white;
+  border: none;
+  color: #4caf50;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-right: 900px;
+
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
+}
+
+.header .button:hover {
+  background-color: green;
+}
+
+.header .title {
+  height: 100px;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 920px;
+  border: none;
+
+  color:white;
+  background-color: #4caf50;
+  font-size: 50px;
+  font-style: oblique;
+  float: right;
+}
+
+
+
+
+.search{
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background-color: white;
+  border: none;
+  color: #4caf50;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-right: 900px;
+
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
+}
+
+.box{
+  width: 1350px;
+  height: 30px;
+  background-color: #4caf50;
+}
+
+
+.button1{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color:#4caf50;
+  border: none;
+  color: white;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-right: 900px;
+
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
+}
+ .button1:hover {
+  background-color:green;
+}
+
+.button2{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color:#4caf50;
+  border: none;
+  color: white;
+  margin-top: 0px;
+  margin-left: 200px;
+  margin-right: 900px;
+
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
+}
+ .button2:hover {
+  background-color: green;
+}
+
+.button3{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color:#4caf50;
+  border: none;
+  color: white;
+  margin-top: 0px;
+  margin-left: 400px;
+  margin-right: 900px;
+
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
+}
+.button3:hover {
+  background-color: green;
+}
+ 
+
+.button4{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color:#4caf50;
+  border: none;
+  color: white;
+  margin-top: 0px;
+  margin-left: 600px;
+  margin-right: 900px;
+
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
+}
+.button4:hover {
+  background-color: green;
+}
+
+.button5{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color:#4caf50;
+  border: none;
+  color: white;
+  margin-top: 0px;
+  margin-left: 800px;
+  margin-right: 900px;
+
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
+}
+.button5:hover {
+  background-color: green;
+}
+
+.button6 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color:#4caf50;
+  border: none;
+  color: white;
+  margin-top: 0px;
+  margin-left: 1000px;
+  margin-right: 900px;
+
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
+}
+.button6:hover {
+  background-color: green;
+}
+
+.button7 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color:#4caf50;
+  border: none;
+  color: white;
+  margin-top: 0px;
+  margin-left: 1200px;
+  margin-right: 900px;
+
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
+}
+.button7:hover {
+  background-color: green;
 }
