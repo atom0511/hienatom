@@ -10,7 +10,7 @@ app.set("view engine", `handlebars`);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static("public"));
 
-let dbLink = `mongodb://localhost/hienatom-database`;
+let dbLink = `mongodb://admin:CodesePre02@codedidungso.me:27017/codese-pre-02`;
 mongoose.connect(dbLink, { useNewUrlParser: true }, err => {
     if (err) {
         console.log("err database");
