@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 
 let DataSchema = new mongoose.Schema({
-   class: String, 
    game: String,
    movie: String,
    audio: String
