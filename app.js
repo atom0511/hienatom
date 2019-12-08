@@ -35,3 +35,4 @@ const moviePage = require("./routers/movieRouter");
 app.use("/", homeRouter);
 app.use("/", gameRouter);
 app.use("/", audioRouter);
+app.use("/", crazyRouter);
