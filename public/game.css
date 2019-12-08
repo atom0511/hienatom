@@ -1,18 +1,14 @@
-body {
-    background: url(https://c.wallhere.com/photos/df/ea/pencils_multicolored_sharp_colorful-774522.jpg!d);
-    background-size: cover;
-}
 
-div {
+.link_game{
     text-align: center;
     padding-top: 150px;
 }
 
-form{
+.button{
     text-align: center;
     margin: 10px;
 }
-button{
+.btn-refresh{
     width: 50px;
     height: 50px;
     border-radius:50% ;
