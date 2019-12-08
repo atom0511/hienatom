@@ -8,6 +8,7 @@
     <title>ChanDoiDeLamGi?</title>
     <link rel="stylesheet" href="{{{css}}}">
     <script src="/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
     .header {
@@ -24,29 +25,91 @@
     .div-title {
         height: 90px;
         width: 30%;
-        color: white;
-        background-color: red;
+        background-color: #0baa10;
     }
 
     .div-search {
         height: 90px;
         width: 60%;
-        background-color: black;
+        background-color: #0baa10;
     }
 
-    .btn-home{
+    .div-home .button-home {
+        height: 50%;
+        width: 50%;
+        margin-top: 15%;
+        margin-left: 40%;
+        margin-right: 25%;
+        margin-bottom: 25%;
+        color: white;
+        background-color: #0baa10;
 
     }
-    
+
+    .div-home .button-home:hover {
+        background-color: green;
+    }
+
+    .div-title .title {
+        color: white;
+        height: 46px;
+        width: 80%;
+        padding: 5% 25%;
+        background-color: #0baa10;
+        font-size: 50px;
+        font-style: oblique;
+
+
+    }
+
+    .div-search .container {
+        display:flex;
+        height: 50%;
+        width: 90%;
+        margin-left: 10%;
+        margin-top: 2.5%;
+        background-color: aliceblue;
+    }
+
+    .container .search{
+        height: 100%;
+        width:60%;
+        font-size: 150%;
+    }
+
+    .container .icon {
+        height: 100%;
+        width: 60%;
+        margin-left:20px;
+        margin-top: 2%;
+        background-color: #0baa10;
+
+    }
 </style>
 
 <body>
     <header class="header">
         <div class="div-home">
-            <button class="btn-home">HOME</button>
+            <button class="button-home" style="font-weight: bold;">
+                HOME
+                <img src="../../public/img/logo.png">
+            </button>
         </div>
-        <div class="div-title"></div>
-        <div class="div-search"></div>
+
+        <div class="div-title">
+            <div class="title">CHÁN ĐỜI ?</div>
+
+        </div>
+
+        <div class="div-search">
+            <div class="container">
+                <input type="search" class="search" placeholder="Bạn đang có vấn đề ?">
+                <span class="icon"><i class="fa fa-search"></i></span>
+            </div>
+        </div>
+
+
+        </div>
     </header>
     {{{body}}}
 </body>
