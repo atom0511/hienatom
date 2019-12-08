@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 let DataSchema = new mongoose.Schema({
    class: String, 
    game: String,
-   film: String,
-   music: String
+   movie: String,
+   audio: String
 }, {
     _id: true,
     timestamps: true

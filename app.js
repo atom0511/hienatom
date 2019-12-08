@@ -29,5 +29,9 @@ app.listen(6061, err => {
 
 const homeRouter = require("./routers/homeRouter");
 const gameRouter = require("./routers/gameRouter");
+const audioRouter = require("./routers/audioRouter");
+const crazyPage = require("./routers/crazyRouter");
+const moviePage = require("./routers/movieRouter");
 app.use("/", homeRouter);
 app.use("/", gameRouter);
+app.use("/", audioRouter);
