@@ -1,4 +1,39 @@
-.link_audio{
+.box_audio{
     text-align: center;
-    padding-top: 150px;
+    padding-top:120px ;
+    display: flex;
+}
+
+.form-back{
+    width: 20%;
+    background-color: yellow;
+}
+
+.div_audio{
+    width: 60%;
+    background-color: red;
+}
+
+.form-next{
+    width: 20%;
+    background-color: yellow;
+}
+
+.btn-back {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    clip-path: polygon(40% 0, 15% 50%, 40% 100%, 25% 100%, 0 50%, 25% 0);
+    background-color: teal;
+}
+
+.btn-next {
+    height: 100%;
+    width: 50px;
+    cursor: pointer;
+}
+
+.btn-next p{
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 60% 100%, 85% 50%, 60% 0);
+    background-color: teal;
 }

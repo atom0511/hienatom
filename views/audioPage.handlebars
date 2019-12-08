@@ -1,3 +1,16 @@
-<div class="link_audio">
-    <iframe scrolling="no" width="640" height="180" src="{{link_audio}}" frameborder="0" allowfullscreen="true"></iframe>
+<div class="box_audio">
+    <form action="/back" method="GET" class="form-back">
+        <button class="btn-back"></button>
+    </form>
+
+    <div class="div_audio">
+        <iframe class="link_audio" scrolling="no" width="640" height="180" src="{{link_audio}}" frameborder="0"
+            allowfullscreen="true"></iframe>
+    </div>
+
+    <form action="/next" method="GET" class="form-next">
+        <button class="btn-next">
+            <p></p>
+        </button>
+    </form>
 </div>
