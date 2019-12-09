@@ -1,4 +1,22 @@
-button
+.feedback{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #4caf50;
+}
+
+.people1{
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 2em;
+  position: relative;
+  text-align: center;
+  cursor: pointer
+}
+
+.people1:hover{
+  border: 1px solid #eee;
+}
 
 .button1{
   position: absolute;

@@ -11,34 +11,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
     .header {
         display: flex;
-        height: 90px;
+        width: 100%;
+        height: fit-content;
+        position: fixed;
+        margin-left: 0%;
     }
 
     .div-home {
-        height: 90px;
+        height: 70px;
         width: 10%;
         background-color: #0baa10;
     }
 
     .div-title {
-        height: 90px;
+        height: 60px;
         width: 30%;
         background-color: #0baa10;
     }
 
     .div-search {
-        height: 90px;
+        height: 70px;
         width: 60%;
         background-color: #0baa10;
     }
 
-    .div-home .button-home {
+    .div-home .logo img{
         height: 50%;
         width: 50%;
-        margin-top: 15%;
-        margin-left: 40%;
+        margin-top: 15%;    
+        margin-left: 50%;
         margin-right: 25%;
         margin-bottom: 25%;
         color: white;
@@ -52,48 +59,50 @@
 
     .div-title .title {
         color: white;
-        height: 46px;
+        height: 70px;
         width: 80%;
-        padding: 5% 25%;
+       
+        padding: 0% 15%;
+        margin-top: 0%;
         background-color: #0baa10;
-        font-size: 50px;
+        font-size: 40px;
         font-style: oblique;
 
 
     }
 
     .div-search .container {
-        display:flex;
         height: 50%;
-        width: 90%;
+        width: 70%;
+        position: relative;
         margin-left: 10%;
         margin-top: 2.5%;
         background-color: aliceblue;
+
     }
 
     .container .search{
         height: 100%;
-        width:60%;
+        width:100%;
+        position: relative;
         font-size: 150%;
     }
 
     .container .icon {
-        height: 100%;
-        width: 60%;
         margin-left:20px;
         margin-top: 2%;
-        background-color: #0baa10;
-
+        position: absolute;
+        right: 10px;
     }
+    
 </style>
 
 <body>
     <header class="header">
         <div class="div-home">
-            <button class="button-home" style="font-weight: bold;">
-                HOME
-                <img src="../../public/img/logo.png">
-            </button>
+            <a class="logo" href="">   
+                <img src="http://localhost:6061/img/logo.png">
+            </a>
         </div>
 
         <div class="div-title">
@@ -103,7 +112,7 @@
 
         <div class="div-search">
             <div class="container">
-                <input type="search" class="search" placeholder="Bạn đang có vấn đề ?">
+                <input type="search" class="search" placeholder="Bạn đang có vấn đề ?">  
                 <span class="icon"><i class="fa fa-search"></i></span>
             </div>
         </div>
