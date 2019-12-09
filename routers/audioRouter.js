@@ -12,7 +12,6 @@ Router.get("/audio", async (req, res) => {
     let data = await readData();
     let randomNumber = Math.floor(Math.random() * data.length);
     res.render("audioPage", { link_audio: data[randomNumber].audio, css: "/audio.css" });
-    console.log(randomNumber);
     Router.get("/back", async (req, res) => {
         console.log("get /back");
         if (randomNumber === 0) {

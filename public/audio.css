@@ -1,39 +1,46 @@
-.box_audio{
+.box_audio {
     text-align: center;
-    padding-top:120px ;
+    padding-top: 120px;
     display: flex;
 }
 
-.form-back{
-    width: 20%;
-    background-color: yellow;
+.form-back {
+    width: 15%;
 }
 
-.div_audio{
-    width: 60%;
-    background-color: red;
+.div_audio {
+    width: 70%;
 }
 
-.form-next{
-    width: 20%;
-    background-color: yellow;
+.form-next {
+    width: 15%;
 }
 
 .btn-back {
-    height: 50px;
+    height: 100px;
     width: 50px;
     cursor: pointer;
-    clip-path: polygon(40% 0, 15% 50%, 40% 100%, 25% 100%, 0 50%, 25% 0);
-    background-color: teal;
+    clip-path: polygon(100% 0, 40% 50%, 100% 100%, 60% 100%, 0% 50%, 60% 0);
+    background-color:#4caf50;
+    border: none;
+    margin-top: 30px ;
+}
+.btn-back:hover{
+    background: url(https://st.gamevui.com/images/image/2019/03/29/doraemon-nobita-tra-thu-20.jpg);
+    background-size:30% ;
 }
 
 .btn-next {
-    height: 100%;
+    height: 100px;
     width: 50px;
     cursor: pointer;
+    clip-path: polygon(40% 0, 100% 50%, 40% 100%, 0% 100%, 60% 50%, 0% 0%);
+    background-color:#4caf50;
+    border: none;
+    margin-top: 30px ;
 }
 
-.btn-next p{
-    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 60% 100%, 85% 50%, 60% 0);
-    background-color: teal;
+.btn-next:hover{
+    background: url(https://st.gamevui.com/images/image/2019/03/29/doraemon-nobita-tra-thu-20.jpg);
+    background-size:30% ;
 }
