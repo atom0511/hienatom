@@ -14,4 +14,11 @@ Router.get("/game", async (req, res) => {
     res.render("gamePage", { link_game: randomData.game, css: "/game.css" });
 })
 
+Router.get("/clicked-game",(req, res) => {
+    console.log("get /clicked-game");
+    let link = req.body.getValue;
+    console.log(link);
+    res.render("gamePage", {link_game: link, css: "/game.css"});
+})
+
 module.exports = Router;

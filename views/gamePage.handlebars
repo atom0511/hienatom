@@ -4,23 +4,26 @@
             <p>GAME TRI TUE</p>
         </div>
         <div>
-            <button class="dino-jump"></button>
-            <p>DINO JUMP</p>
+            <form action="/clicked-game" method="GET">
+                <button type="submit" class="dino-jump"></button>
+                <p>DINO JUMP</p>
+                <input type="submit" value="1111" name="getValue">
+            </form>
         </div>
         <div>
-            <button class="bounce-ball"></button>
+            <button type="submit" class="bounce-ball" value=""></button>
             <p>BOUNCE BALL</p>
         </div>
         <div>
-            <button class="light-ray"></button>
+            <button type="submit" class="light-ray" value=""></button>
             <p>LIGHT RAY</p>
         </div>
         <div>
-            <button class="poop-it"></button>
+            <button type="submit" class="poop-it"></button>
             <p>POOP IT</p>
         </div>
         <div>
-            <button class="halloween-bingo"></button>
+            <button type="submit" class="halloween-bingo"></button>
             <p>HALLOWEEN BINGO</p>
         </div>
     </div>
@@ -34,27 +37,34 @@
             <p>GAME HANH DONG</p>
         </div>
         <div>
-            <button class="ecypt-stone-war"></button>
+            <button type="submit" class="ecypt-stone-war"></button>
             <p>ECYPT STONE WAR</p>
         </div>
         <div>
-            <button class="forest-war"></button>
+            <button type="submit" class="forest-war"></button>
             <p>FOREST WAR</p>
         </div>
         <div>
-            <button class="the-office-guy"></button>
+            <button type="submit" class="the-office-guy"></button>
             <p>THE OFFICE GUY</p>
         </div>
         <div>
-            <button class="knights-diamond"></button>
+            <button type="submit" class="knights-diamond"></button>
             <p>KNIGHTS DIAMOND</p>
         </div>
         <div>
-            <button class="soldiers-combat"></button>
+            <button type="submit" class="soldiers-combat"></button>
             <p>SOLDIERS COMBAT</p>
         </div>
     </div>
 </div>
+
 <form class="form-game" action="/game" method="GET">
     <button class="btn-refresh" type="submit" title="Refresh"></button>
 </form>
+
+<script>
+    $("button").click(function () {
+
+    })
+</script>
