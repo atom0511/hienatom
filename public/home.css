@@ -1,8 +1,18 @@
+*{
+  margin: 0;
+  padding:0;
+}
 .feedback{
+  display: flex;
+
+}
+mark{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   background-color: #4caf50;
+  font-size: 50px;
+  color:white
 }
 
 .people1{
@@ -18,7 +28,63 @@
   border: 1px solid #eee;
 }
 
-.button1{
+
+.people2{
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 2em;
+  position: relative;
+  text-align: center;
+  cursor: pointer
+}
+
+.people2:hover{
+  border: 1px solid #eee;
+}
+
+.people3{
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 2em;
+  position: relative;
+  text-align: center;
+  cursor: pointer
+}
+
+.people3:hover{
+  border: 1px solid #eee;
+}
+
+.people4{
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 2em;
+  position: relative;
+  text-align: center;
+  cursor: pointer
+}
+
+.people4:hover{
+  border: 1px solid #eee;
+}
+
+.people5{
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 2em;
+  position: relative;
+  text-align: center;
+  cursor: pointer
+}
+
+.people5:hover{
+  border: 1px solid #eee;
+}
+
+menu{
+  width: 100%;
+}
+.menu .game{
   position: absolute;
   width: 100px;
   height: 100px;
@@ -26,7 +92,7 @@
   border: none;
   color: white;
   margin-top: 0px;
-  margin-left: 5px;
+  margin-left: 0px;
   margin-right: 900px;
 
   padding: 15px 25px;
@@ -35,11 +101,11 @@
   cursor: pointer;
   float: left;
 }
- .button1:hover {
+ .game:hover {
   background-color:green;
 }
 
-.button2{
+.menu .music{
   position: absolute;
   width: 100px;
   height: 100px;
@@ -47,20 +113,21 @@
   border: none;
   color: white;
   margin-top: 0px;
-  margin-left: 200px;
-  margin-right: 900px;
+  margin-left: 150px;
+  margin-right: 700px;
 
   padding: 15px 25px;
   text-align: center;
   font-size: 20px;
   cursor: pointer;
-  float: left;
+  float: right;
 }
- .button2:hover {
+ .music:hover {
   background-color: green;
 }
 
-.button3{
+
+.menu .film{
   position: absolute;
   width: 100px;
   height: 100px;
@@ -68,21 +135,20 @@
   border: none;
   color: white;
   margin-top: 0px;
-  margin-left: 400px;
-  margin-right: 900px;
+  margin-left: 300px;
+  margin-right: 700px;
 
   padding: 15px 25px;
   text-align: center;
   font-size: 20px;
   cursor: pointer;
-  float: left;
+  float: right;
 }
-.button3:hover {
+ .film:hover {
   background-color: green;
 }
- 
 
-.button4{
+.menu .xam{
   position: absolute;
   width: 100px;
   height: 100px;
@@ -90,78 +156,20 @@
   border: none;
   color: white;
   margin-top: 0px;
-  margin-left: 600px;
-  margin-right: 900px;
+  margin-left: 450px;
+  margin-right: 700px;
 
   padding: 15px 25px;
   text-align: center;
   font-size: 20px;
   cursor: pointer;
-  float: left;
+  float: right;
 }
-.button4:hover {
+ .xam:hover {
   background-color: green;
 }
 
-.button5{
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background-color:#4caf50;
-  border: none;
-  color: white;
-  margin-top: 0px;
-  margin-left: 800px;
-  margin-right: 900px;
 
-  padding: 15px 25px;
-  text-align: center;
-  font-size: 20px;
-  cursor: pointer;
-  float: left;
-}
-.button5:hover {
-  background-color: green;
-}
-
-.button6 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background-color:#4caf50;
-  border: none;
-  color: white;
-  margin-top: 0px;
-  margin-left: 1000px;
-  margin-right: 900px;
-
-  padding: 15px 25px;
-  text-align: center;
-  font-size: 20px;
-  cursor: pointer;
-  float: left;
-}
-.button6:hover {
-  background-color: green;
-}
-
-.button7 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background-color:#4caf50;
-  border: none;
-  color: white;
-  margin-top: 0px;
-  margin-left: 1200px;
-  margin-right: 900px;
-
-  padding: 15px 25px;
-  text-align: center;
-  font-size: 20px;
-  cursor: pointer;
-  float: left;
-}
-.button7:hover {
-  background-color: green;
+footer {
+  display: block;
 }
