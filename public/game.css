@@ -1,19 +1,135 @@
-.box_game {
-    text-align: center;
-    padding-top: 150px;
+.box-game {
+    display: flex;
+    padding-top: 200px ;
 }
 
-.form-game{   
+.game-tri-tue {
+    width: 25%;
+    height: 400px;
+    background-color: yellow;
+    overflow: auto;
+}
+
+.game-hanh-dong {
+    width: 25%;
+    height: 400px;
+    background-color: yellow;
+    overflow: auto;
+}
+
+.div-game {
+    width: 50%;
+    text-align: center;
+    background-color: tomato;
+}
+.game-tri-tue div{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    width: 222px;
+    height: 130px;
+}
+
+.game-hanh-dong div{
+    text-align: center;
+    margin-top: 20px ;
+}
+
+.form-game {
     text-align: center;
     margin: 10px;
 }
-.btn-refresh{
+
+.btn-refresh {
     width: 50px;
     height: 50px;
-    border-radius:50% ;
+    border-radius: 50%;
     background: url(https://cdn0.iconfinder.com/data/icons/essentials-solid/100/Refresh-512.png);
     background-size: 80%;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     border: 0;
+}
+
+/* vẽ background cho từng phím */
+
+.dino-jump{
+    background: url(./img/game/dino-jump1.jpg);
+}
+
+.dino-jump:hover{
+    background: url(./img/game/dino-jump2.jpg);
+}
+
+.bounce-ball{
+    background: url(./img/game/bounce-ball1.jpg);
+}
+
+.bounce-ball:hover{
+    background: url(./img/game/bounce-ball2.jpg);
+}
+
+.light-ray{
+    background: url(./img/game/light-rays1.jpg);
+}
+
+.light-ray:hover{
+    background: url(./img/game/light-rays2.jpg);
+}
+
+.poop-it{
+    background: url(./img/game/poop-it1.jpg);
+}
+
+.poop-it:hover{
+    background: url(./img/game/poop-it2.jpg);
+}
+
+.halloween-bingo{
+    background: url(./img/game/halloween-bingo1.jpg);
+}
+
+.halloween-bingo:hover{
+    background: url(./img/game/halloween-bingo2.jpg);
+}
+
+.ecypt-stone-war{
+    background: url(./img/game/ecypt-stone-war1.jpg);
+}
+
+.ecypt-stone-war:hover{
+    background: url(./img/game/ecypt-stone-war2.jpg);
+}
+
+.forest-war{
+    background: url(./img/game/forest-warrior1.jpg);
+}
+
+.forest-war:hover{
+    background: url(./img/game/forest-warrior2.jpg);
+}
+
+.the-office-guy{
+    background: url(./img/game/the-office-guy1.jpg);
+}
+
+.the-office-guy:hover{
+    background: url(./img/game/the-office-guy2.jpg);
+}
+
+.knights-diamond{
+    background: url(./img/game/knights-diamond1.jpg);
+}
+
+.knights-diamond:hover{
+    background: url(./img/game/knights-diamond2.jpg);
+}
+
+.soldiers-combat{
+    background: url(./img/game/soldiers-combat1.jpg);
+}
+
+.soldiers-combat:hover{
+    background: url(./img/game/soldiers-combat2.jpg);
 }
