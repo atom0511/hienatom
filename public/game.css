@@ -26,6 +26,7 @@
 button{
     width: 222px;
     height: 130px;
+    cursor: pointer;
 }
 
 .game-hanh-dong div{
