@@ -6,21 +6,18 @@
 .game-tri-tue {
     width: 25%;
     height: 400px;
-    background-color: yellow;
     overflow: auto;
 }
 
 .game-hanh-dong {
     width: 25%;
     height: 400px;
-    background-color: yellow;
     overflow: auto;
 }
 
 .div-game {
     width: 50%;
     text-align: center;
-    background-color: tomato;
 }
 .game-tri-tue div{
     text-align: center;
