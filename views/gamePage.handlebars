@@ -1,60 +1,79 @@
-<div class="box-game">
-    <div class="game-tri-tue">
-        <div>
-            <p>GAME TRI TUE</p>
+<form action="/clicked" , method="POST">
+    <div class="box-game">
+        <div class="game-tri-tue">
+            <div>
+                <p>GAME TRI TUE</p>
+            </div>
+            <div>
+                <button type="submit" class="dino-jump" value="https://freakxapps.com/demo/me/dino-jump/"
+                    name="getValue"></button>
+                <p>BOUNCE BALL</p>
+            </div>
+            <div>
+                <button type="submit" class="bounce-ball" value="https://freakxapps.com/demo/me/bounce-ball1/fr/"
+                    name="getValue"></button>
+                <p>BOUNCE BALL</p>
+            </div>
+            <div>
+                <button type="submit" class="light-ray" value="https://freakxapps.com/demo/me/light-rays2/"
+                    name="getValue"></button>
+                <p>LIGHT RAY</p>
+            </div>
+            <div>
+                <button type="submit" class="poop-it" value="https://freakxapps.com/demo/me/poop-it/"
+                    name="getValue"></button>
+                <p>POOP IT</p>
+            </div>
+            <div>
+                <button type="submit" class="halloween-bingo" value="https://freakxapps.com/demo/me/halloween-bingo/"
+                    name="getValue"></button>
+                <p>HALLOWEEN BINGO</p>
+            </div>
         </div>
-        <div>
-            <button class="dino-jump"></button>
-            <p>DINO JUMP</p>
-        </div>
-        <div>
-            <button class="bounce-ball"></button>
-            <p>BOUNCE BALL</p>
-        </div>
-        <div>
-            <button class="light-ray"></button>
-            <p>LIGHT RAY</p>
-        </div>
-        <div>
-            <button class="poop-it"></button>
-            <p>POOP IT</p>
-        </div>
-        <div>
-            <button class="halloween-bingo"></button>
-            <p>HALLOWEEN BINGO</p>
-        </div>
-    </div>
 
-    <div class="div-game">
-        <iframe src="{{link_game}}" width="600px" height="400px" frameborder="no"></iframe>
-    </div>
+        <div class="div-game">
+            <iframe src="{{link_game}}" width="600px" height="400px" frameborder="no"></iframe>
+        </div>
 
-    <div class="game-hanh-dong">
-        <div>
-            <p>GAME HANH DONG</p>
-        </div>
-        <div>
-            <button class="ecypt-stone-war"></button>
-            <p>ECYPT STONE WAR</p>
-        </div>
-        <div>
-            <button class="forest-war"></button>
-            <p>FOREST WAR</p>
-        </div>
-        <div>
-            <button class="the-office-guy"></button>
-            <p>THE OFFICE GUY</p>
-        </div>
-        <div>
-            <button class="knights-diamond"></button>
-            <p>KNIGHTS DIAMOND</p>
-        </div>
-        <div>
-            <button class="soldiers-combat"></button>
-            <p>SOLDIERS COMBAT</p>
+        <div class="game-hanh-dong">
+            <div>
+                <p>GAME HANH DONG</p>
+            </div>
+            <div>
+                <button type="submit" class="ecypt-stone-war" value="https://freakxapps.com/demo/me/egypt-stone-war/"
+                    name="getValue"></button>
+                <p>ECYPT STONE WAR</p>
+            </div>
+            <div>
+                <button type="submit" class="forest-war" value="https://freakxapps.com/demo/me/forest-warrior/fr/"
+                    name="getValue"></button>
+                <p>FOREST WAR</p>
+            </div>
+            <div>
+                <button type="submit" class="the-office-guy" value="https://freakxapps.com/demo/me/the-office-guy1/"
+                    name="getValue"></button>
+                <p>THE OFFICE GUY</p>
+            </div>
+            <div>
+                <button type="submit" class="knights-diamond"
+                    value="https://freakxapps.com/demo/me/knights-diamond-html5/" name="getValue"></button>
+                <p>KNIGHTS DIAMOND</p>
+            </div>
+            <div>
+                <button type="submit" class="soldiers-combat" value="https://freakxapps.com/demo/me/soldiers-combat3/"
+                    name="getValue"></button>
+                <p>SOLDIERS COMBAT</p>
+            </div>
         </div>
     </div>
-</div>
+</form>
+
 <form class="form-game" action="/game" method="GET">
     <button class="btn-refresh" type="submit" title="Refresh"></button>
 </form>
+
+<script>
+    $("button").click(function () {
+
+    })
+</script>
